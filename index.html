@@ -123,17 +123,24 @@
                 </center>
             </div>
             <div class="column">
-                <form action="">
-                    <input type="Email" name="" placeholder="Email" id="" cols="50" rows="15">
+                <form action="javascript:void(0)" onsubmit="obtenerValoresFormulario()">
+                    <input type="Email" name="" placeholder="Email" id="txtCorreo" cols="50" rows="15">
                     <br>
-                    <input type="text" name="" placeholder="Ingrese su queja" id="" cols="50" rows="15">
+                    <input type="text" name="" placeholder="Ingrese su Nombre" id="txtNombre" cols="50" rows="15">
                     <br>
-                    <textarea name="" placeholder="Ingrese Una descripcion" id="txtdescripcion" cols="50" rows="15"></textarea>
+                    <input type="text" name="" placeholder="Ingrese su Celular" id="txtCelular" cols="50" rows="15">
                     <br>
-                    <input type="submit" value="">
+                    <input type="password" name="" placeholder="Ingrese su clave" id="txtClave" cols="50" rows="15">
+                    <br>
+                    <textarea name="" placeholder="Ingrese Una Direccion" id="txtDireccion" cols="50" rows="15"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar Datos">
                 </form>    
             </div>
         </div>
     </footer>
+
+    <script src="./index.js"></script>
+
 </body>
 </html>

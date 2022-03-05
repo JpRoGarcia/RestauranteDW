@@ -91,8 +91,8 @@ h1 {
 }
 
 .mi-flecha {
-    width: 2vh;
-    height: 2vh;
+    width: 2vw;
+    height: 2vw;
     border: 0.5vw solid;
     border-color: white transparent transparent white;
     transform: rotate(-136deg);
@@ -106,27 +106,24 @@ h1 {
 @keyframes slide {
     0%{
         opacity: 0;
-        transform: translateY(-3vw)
+        transform: translateY(-4vw)
     }
-    20%{
+    25%{
         opacity: 1;
         transform: translateY(-2vw)
     }
-    40%{
+    50%{
         opacity: 0;
-        transform: translateY(-1vw)
+        transform: translateY(0vw)
     }
-    60%{
+    75%{
         opacity: 1;
-        transform: translateY(1vw)
-    }
-    80%{
-        opacity: 0;
         transform: translateY(2vw)
     }
     100%{
-        opacity: 1;
-        transform: translateY(3vw)
+        opacity: 0;
+        transform: translateY(4vw)
     }
+
 }
 
